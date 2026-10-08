@@ -91,6 +91,7 @@ nav ul a:hover{color:var(--text)}
 .card:nth-child(2){background:var(--mint)}
 .card:nth-child(3){background:var(--butter)}
 .card:nth-child(4){background:var(--peach)}
+.card:nth-child(5){background:var(--sky)}
 .card h3{font-size:1.7rem;font-weight:800}
 .card .date{font-size:.9rem;opacity:.7}
 .card ul{padding-left:1.1rem;display:grid;gap:8px;font-size:.98rem}
@@ -259,6 +260,27 @@ nav ul a:hover{color:var(--text)}
           <div class="frame">
             <div class="bar"><i></i><i></i><i></i></div>
             <img id="wuzzufShot" src="images/wuzzuf-overview.jpg" alt="Wuzzuf dashboard overview with active listings, hiring companies, and work mode charts" width="1100" height="547" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="card wide">
+      <div class="info">
+        <span class="date">October 2026</span>
+        <h3>ETL Sales Pipeline &amp; Flask Dashboard</h3>
+        <ul>
+          <li>Extracted data from three sources (CSV, Parquet, and a CSV downloaded from an API) and cleaned each in Pandas: deduplication, standardized cities, validated ages, quantities and prices, and handled missing emails.</li>
+          <li>Merged the datasets into one Sales table, remapping a duplicate customer ID so no orders were lost, and calculated order totals.</li>
+          <li>Loaded the table into SQL Server with PyODBC and built a Flask page that reads it live from the database.</li>
+        </ul>
+        <div class="tags"><span>Python</span><span>Pandas</span><span>SQL Server</span><span>PyODBC</span><span>Flask</span></div>
+        <a class="more" href="https://github.com/zeinahussien/ETL-Sales-Flask-Dashboard" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+      <div class="devices">
+        <div class="laptop">
+          <div class="frame">
+            <div class="bar"><i></i><i></i><i></i></div>
+            <img src="images/sales-ledger.png" alt="Sales Ledger dashboard showing an orders table with customer, product, quantity, unit price and total amount" width="1447" height="781" loading="lazy">
           </div>
         </div>
       </div>
